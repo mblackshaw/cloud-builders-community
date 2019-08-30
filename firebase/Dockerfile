@@ -1,4 +1,4 @@
-FROM node
+FROM node:8.16.1
 
 RUN npm i -g firebase-tools
 ADD firebase.bash /usr/bin
